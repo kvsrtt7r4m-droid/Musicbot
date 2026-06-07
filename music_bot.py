@@ -13,14 +13,10 @@ logging.basicConfig(
 )
 
 ALLOWED_DOMAINS = [
-    "soundcloud.com",
-    "youtube.com",
-    "youtu.be",
+    "on.soundcloud.com",
     "music.youtube.com",
     "open.spotify.com",
     "spotify.com",
-    "music.yandex.ru",
-    "yandex.ru/music",
 ]
 
 def is_valid_music_link(text: str) -> bool:
@@ -36,10 +32,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"👋 Привет, {user.first_name}!\n\n"
         "🎵 Хочешь заказать трек?\n\n"
         "Просто отправь ссылку на песню с:\n"
-        "• SoundCloud\n"
-        "• YouTube / YouTube Music\n"
+        "• on.SoundCloud\n"
+        "• YouTube Music\n"
         "• Spotify\n"
-        "• Яндекс Музыка\n\n"
         "И я передам её диджею! 🎧"
     )
 
