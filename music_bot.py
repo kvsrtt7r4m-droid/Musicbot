@@ -16,7 +16,11 @@ ALLOWED_DOMAINS = [
     "on.soundcloud.com",
     "music.youtube.com",
     "open.spotify.com",
-    "spotify.com",
+    "spotify.com",                           
+    "soundcloud.com",
+    "youtube.com",
+    "youtu.be",
+
 ]
 
 def is_valid_music_link(text: str) -> bool:
