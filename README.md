@@ -4,10 +4,12 @@ A Telegram bot that accepts music links from users and forwards them to a channe
 
 ## Supported Platforms
 - SoundCloud
-- YouTube / YouTube Music
+- YouTube Music
 - Spotify
-- Яндекс Музыка
+
 
 ## Environment Variables
-- `BOT_TOKEN` — @Chiiiiiilllly_bot
-- `CHANNEL_ID` — https://t.me/chillllly1233
+- `BOT_TOKEN` — 8728706452:AAE4YbAs9OHe-HO_mnqrkXDW4z6ATh6ETTc
+
+- `CHANNEL_ID` — -1003924039282
+
