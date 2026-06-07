@@ -66,7 +66,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await context.bot.send_message(
             chat_id=CHANNEL_ID,
             text=message,
-            parse_mode="Markdown"
         )
         await update.message.reply_text(
             "✅ Готово! Твой трек отправлен диджею.\n"
