@@ -16,7 +16,6 @@ ALLOWED_DOMAINS = [
     "music.youtube.com",
     "open.spotify.com",
     "spotify.com",
-    "music.yandex.ru",
 ]
 
 def is_valid_music_link(text):
