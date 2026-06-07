@@ -9,5 +9,5 @@ A Telegram bot that accepts music links from users and forwards them to a channe
 - Яндекс Музыка
 
 ## Environment Variables
-- `BOT_TOKEN` — Telegram bot token
-- `CHANNEL_ID` — Telegram channel ID to forward music links to
+- `BOT_TOKEN` — 8728706452:AAE4YbAs9OHe-HO_mnqrkXDW4z6ATh6ETTc
+- `CHANNEL_ID` — @Chiiiiiilllly_bot
