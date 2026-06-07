@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Cal
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "").strip()
-PAYPAL_LINK = "https://paypal.me/Vadiikkk."
+PAYPAL_LINK = "https://paypal.me/Vadiikkk"
 
 logging.basicConfig(level=logging.INFO)
 
